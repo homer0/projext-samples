@@ -3,6 +3,9 @@ module.exports = {
     webapp: {
       type: 'browser',
     },
+    nodeapp: {
+      type: 'node',
+    },
     expresswebapp: {
       type: 'node',
     },

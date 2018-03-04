@@ -25,10 +25,12 @@
   },
   "scripts": {
     "build:webapp": "projext build webapp",
+    "build:nodeapp": "projext build nodeapp",
     "build:expresswebapp": "projext build expresswebapp",
     "build:jimpexwebapp": "projext build jimpexwebapp",
 
     "start:webapp": "projext run webapp",
+    "start:nodeapp": "projext run nodeapp",
     "start:expresswebapp": "projext run expresswebapp",
     "start:jimpexwebapp": "projext run jimpexwebapp"
   }

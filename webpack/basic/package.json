@@ -8,7 +8,7 @@
   "dependencies": {
     "jimpex": "2.0.0",
     "express": "4.16.2",
-    "projext-plugin-runner": "3.0.2"
+    "projext-plugin-runner": "4.0.0-alpha.1"
   },
   "devDependencies": {
     "projext": "3.0.0-alpha.2",
@@ -26,11 +26,13 @@
   "scripts": {
     "build:webapp": "projext build webapp",
     "build:nodeapp": "projext build nodeapp",
+    "build:express": "projext build express",
     "build:expresswebapp": "projext build expresswebapp",
     "build:jimpexwebapp": "projext build jimpexwebapp",
 
     "start:webapp": "projext run webapp",
     "start:nodeapp": "projext run nodeapp",
+    "start:express": "projext run express",
     "start:expresswebapp": "projext run expresswebapp",
     "start:jimpexwebapp": "projext run jimpexwebapp"
   }

@@ -6,6 +6,10 @@ module.exports = {
     nodeapp: {
       type: 'node',
     },
+    express: {
+      type: 'node',
+      bundle: true,
+    },
     expresswebapp: {
       type: 'node',
     },

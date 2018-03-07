@@ -29,11 +29,13 @@
     "build:express": "projext build express",
     "build:expresswebapp": "projext build expresswebapp",
     "build:jimpexwebapp": "projext build jimpexwebapp",
+    "build:weblib": "projext build weblib",
 
     "start:webapp": "projext run webapp",
     "start:nodeapp": "projext run nodeapp",
     "start:express": "projext run express",
     "start:expresswebapp": "projext run expresswebapp",
-    "start:jimpexwebapp": "projext run jimpexwebapp"
+    "start:jimpexwebapp": "projext run jimpexwebapp",
+    "start:weblib": "projext run weblib"
   }
 }

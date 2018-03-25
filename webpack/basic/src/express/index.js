@@ -1,10 +1,10 @@
-const express = require('express');
-const { Logger } = require('wootils/node/logger');
-const template = require('./template.html');
-const styles = require('./assets/styles.scss');
-const webpackLogo = require('./assets/webpack-logo.png');
-const hello = require('./hello.html');
-require('./assets/favicon.ico');
+import express from 'express';
+import { Logger } from 'wootils/node/logger';
+import template from './template.html';
+import styles from './assets/styles.scss';
+import webpackLogo from './assets/webpack-logo.png';
+import hello from './hello.html';
+import './assets/favicon.ico';
 
 const port = 2509;
 const app = express();

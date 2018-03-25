@@ -1,6 +1,6 @@
 class WebLib {
-  getMessage() {
-    return 'Hello projext!';
+  writeMessage(selector) {
+    document.querySelector(selector).innerHTML = 'Hello projext!';
   }
 }
 

@@ -11,8 +11,8 @@
     "projext-plugin-runner": "4.0.0-alpha.2"
   },
   "devDependencies": {
-    "projext": "3.0.0-alpha.3",
-    "projext-plugin-webpack": "4.0.0-alpha.6",
+    "projext": "3.0.0-alpha.4",
+    "projext-plugin-webpack": "4.0.0-alpha.7",
     "wootils": "1.1.1",
     "eslint": "4.18.2",
     "eslint-config-airbnb-base": "12.1.0",
@@ -30,6 +30,7 @@
     "build:expresswebapp": "projext build expresswebapp",
     "build:jimpexwebapp": "projext build jimpexwebapp",
     "build:weblib": "projext build weblib",
+    "build:webappcss": "projext build webappcss",
     "build:webappconfig": "projext build webappconfig",
 
     "start:webapp": "projext run webapp",
@@ -38,6 +39,7 @@
     "start:expresswebapp": "projext run expresswebapp",
     "start:jimpexwebapp": "projext run jimpexwebapp",
     "start:weblib": "projext run weblib",
+    "start:webappcss": "projext run webappcss",
     "start:webappconfig": "projext run webappconfig",
     "start:webappconfig:custom": "CONFIG=custom projext run webappconfig"
   }

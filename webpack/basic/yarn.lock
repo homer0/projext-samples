@@ -5840,9 +5840,9 @@ projext-plugin-runner@4.0.0-alpha.2:
     jimple homer0/jimple
     wootils "^1.1.1"
 
-projext-plugin-webpack@4.0.0-alpha.6:
-  version "4.0.0-alpha.6"
-  resolved "http://local.npm/projext-plugin-webpack/-/projext-plugin-webpack-4.0.0-alpha.6.tgz#b138a408f46d320731599dfe626c35375a23539b"
+projext-plugin-webpack@4.0.0-alpha.7:
+  version "4.0.0-alpha.7"
+  resolved "http://local.npm/projext-plugin-webpack/-/projext-plugin-webpack-4.0.0-alpha.7.tgz#9e63f48ed22f8e84413498851bcc98fabbb296b4"
   dependencies:
     babel-core "6.26.0"
     babel-loader "7.1.2"
@@ -5857,7 +5857,7 @@ projext-plugin-webpack@4.0.0-alpha.6:
     jimple homer0/jimple
     node-sass "4.7.2"
     optimize-css-assets-webpack-plugin "3.2.0"
-    projext "3.0.0-alpha.3"
+    projext "^3.0.0-alpha.4"
     raw-loader "0.5.1"
     resolve-url-loader "2.2.1"
     sass-loader "6.0.6"
@@ -5873,9 +5873,9 @@ projext-plugin-webpack@4.0.0-alpha.6:
     webpack-node-utils "3.0.0"
     wootils "^1.1.1"
 
-projext@3.0.0-alpha.3:
-  version "3.0.0-alpha.3"
-  resolved "http://local.npm/projext/-/projext-3.0.0-alpha.3.tgz#a2569c18c78af72735deb1aebdd412d4cdb300a5"
+projext@3.0.0-alpha.4, projext@^3.0.0-alpha.4:
+  version "3.0.0-alpha.4"
+  resolved "http://local.npm/projext/-/projext-3.0.0-alpha.4.tgz#ae45bb11f366de7b4913d89cd96e016ed255ee4b"
   dependencies:
     babel-cli "6.26.0"
     babel-core "6.26.0"

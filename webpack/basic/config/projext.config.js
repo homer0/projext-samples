@@ -5,5 +5,11 @@ module.exports = {
         enabled: true,
       },
     },
+    webappcss: {
+      css: {
+        modules: true,
+        inject: true,
+      },
+    },
   },
 };

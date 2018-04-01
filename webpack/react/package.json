@@ -26,6 +26,9 @@
   },
   "scripts": {
     "build:webapp": "projext build webapp",
-    "start:webapp": "projext run webapp"
+    "build:webapphot": "projext build webapphot",
+
+    "start:webapp": "projext run webapp",
+    "start:webapphot": "projext run webapphot"
   }
 }

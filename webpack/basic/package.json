@@ -7,12 +7,12 @@
   "license": "MIT",
   "dependencies": {
     "jimpex": "2.0.0",
-    "express": "4.16.2"
+    "express": "4.16.2",
+    "wootils": "1.1.1"
   },
   "devDependencies": {
     "projext": "3.0.0-alpha.4",
     "projext-plugin-webpack": "4.0.0-alpha.7",
-    "wootils": "1.1.1",
     "eslint": "4.18.2",
     "eslint-config-airbnb-base": "12.1.0",
     "eslint-plugin-import": "2.9.0",
@@ -31,6 +31,11 @@
     "build:weblib": "projext build weblib",
     "build:webappcss": "projext build webappcss",
     "build:webappconfig": "projext build webappconfig",
+
+    "prebuild:expresswebapp:production": "projext build webapp --type production",
+    "build:expresswebapp:production": "projext build expresswebapp --type production",
+    "prebuild:jimpexwebapp:production": "projext build webapp --type production",
+    "build:jimpexwebapp:production": "projext build jimpexwebapp --type production",
 
     "start:webapp": "projext run webapp",
     "start:nodeapp": "projext run nodeapp",

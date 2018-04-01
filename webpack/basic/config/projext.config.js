@@ -12,4 +12,11 @@ module.exports = {
       },
     },
   },
+  copy: {
+    enabled: true,
+    items: ['package.json'],
+    copyOnBuild: {
+      targets: ['jimpexwebapp'],
+    },
+  },
 };

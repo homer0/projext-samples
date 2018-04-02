@@ -9,7 +9,7 @@ const Hello = () => (
     </div>
     <div className="hello_texts">
       <h1>Hello projext!</h1>
-      <h2>Sample app using webpack and React</h2>
+      <h2>Sample app using webpack and React (HMR)</h2>
     </div>
   </div>
 );

@@ -1,11 +1,14 @@
 {
-  "name": "projext-samples-webpack-angularjs",
+  "name": "projext-samples-webpack-react",
   "description": "Sample projext configuration",
   "version": "1.0.0",
   "repository": "homer0/projext-samples",
   "author": "Leonardo Apiwan (@homer0) <me@homer0.com>",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "express": "4.16.2",
+    "wootils": "1.1.1"
+  },
   "devDependencies": {
     "react": "16.3.0",
     "react-dom": "16.3.0",
@@ -27,8 +30,10 @@
   "scripts": {
     "build:webapp": "projext build webapp",
     "build:webapphot": "projext build webapphot",
+    "build:expresswebappssr": "projext build expresswebappssr",
 
     "start:webapp": "projext run webapp",
-    "start:webapphot": "projext run webapphot"
+    "start:webapphot": "projext run webapphot",
+    "start:expresswebappssr": "projext run expresswebappssr"
   }
 }

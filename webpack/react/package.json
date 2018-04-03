@@ -32,6 +32,9 @@
     "build:webapphot": "projext build webapphot",
     "build:expresswebappssr": "projext build expresswebappssr",
 
+    "prebuild:expresswebappssr:production": "projext build webapp --type production",
+    "build:expresswebappssr:production": "projext build expresswebappssr --type production",
+
     "start:webapp": "projext run webapp",
     "start:webapphot": "projext run webapphot",
     "start:expresswebappssr": "projext run expresswebappssr"

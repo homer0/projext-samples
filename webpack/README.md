@@ -1,0 +1,41 @@
+# projext - samples - webpack
+
+All the sample projects on this directory use the [projext](https://yarnpkg.com/en/package/projext) [webpack](https://webpack.js.org/) [build engine](https://yarnpkg.com/en/package/projext-plugin-webpack) for building all kind of different things:
+
+## Basic
+
+This sample project doesn't use any framework, so most of the code would look like taken from a 2007 site. Remember that projext helps you bundle and distribute your project, no matter how ugly the code looks like.
+
+There are a lot of different targets on this project that show you how simple is to implement all projext features:
+
+- `webapp`: A simple browser target, nothing more.
+- `nodeapp`: A Node target that just logs a message.
+- `express`: A Node [Express](https://expressjs.com) app that renders HTML by importing assets.
+- `expresswebapp`: A Node [express](https://expressjs.com) app that serves the `webapp` target.
+- `jimpexwebapp`: A Node [jimpex](https://yarnpkg.com/en/package/jimpex) app that serves the `webapp` target.
+- `weblib`: A library browser target, with a "playground" to test it on development.
+- `webappcss`: A browser target that injects the styles on the HTML rather than having a stylesheet file.
+- `webappconfig`: A browser target with dynamic configuration.
+- `webappmodules`: A browser target that builds the code of a Node module in order to implement it.
+
+[Read the project README](./basic/README.md).
+
+## AngularJS
+
+A simple web app using the [AngularJS](http://angularjs.org/) [projext webpack plugin](https://yarnpkg.com/en/package/projext-plugin-webpack-angularjs). Is the exact same app as the `webapp` target from the `basic` project but with AngularJS components.
+
+And taking advantage of projext zero configuration feature, this project doesn't even have a configuration file.
+
+[Read the project README](./angularjs/README.md).
+
+## React
+
+This project has 3 targets that show you very common scenarios when implementing
+
+This project uses the [React](http://reactjs.org/) [projext webpack plugin](https://yarnpkg.com/en/package/projext-plugin-webpack-react) and 3 targets to show you very common React scenarios:
+
+- `webapp`: Like on the others, a small browser target that shows a message.
+- `webapphot`: The same app as on the other target, but with [Hot Module Replacement](https://webpack.js.org/concepts/hot-module-replacement/).
+- `expresswebappssr`: A Node [express](https://expressjs.com) app that serves the `webapp` target code using server side rendering.
+
+[Read the project README](./react/README.md).

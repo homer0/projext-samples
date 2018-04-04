@@ -31,8 +31,8 @@
   "scripts": {
     "build:webapp": "projext build webapp",
     "build:webapphot": "projext build webapphot",
-    "build:expresswebappssr": "projext build expresswebappssr",
 
+    "build:expresswebappssr": "projext build expresswebappssr",
     "prebuild:expresswebappssr:production": "projext build webapp --type production",
     "build:expresswebappssr:production": "projext build expresswebappssr --type production",
 

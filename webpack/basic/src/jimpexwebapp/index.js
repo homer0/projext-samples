@@ -4,12 +4,13 @@ const useJimpex = require('projext-plugin-webpack/jimpex');
 // Define the Jimpex app
 class DevApp extends Jimpex {
   boot() {
-
+    // If this is not defined, Jimpex throws an error.
   }
 }
 
-// Create the app
+// Define the port for the server.
 const port = 2509;
+// Instantiate the app and send the port on the configuration.
 const app = new DevApp(true, {
   configuration: {
     default: {
@@ -17,7 +18,11 @@ const app = new DevApp(true, {
     },
   },
 });
+/**
+ * Implement the dev middleware by telling projext that the target `webapp` will be served by the
+ * `jimpexwebapp` target.
+ */
+useJimpex(app, 'webapp', 'jimpexwebapp');
 
-useJimpex(app, 'webapp', 'expresswebapp');
-
+// Start the app.
 app.start();

@@ -27,18 +27,25 @@
     "build:webapp": "projext build webapp",
     "build:nodeapp": "projext build nodeapp",
     "build:express": "projext build express",
-    "build:expresswebapp": "projext build expresswebapp",
-    "build:jimpexwebapp": "projext build jimpexwebapp",
-    "build:weblib": "projext build weblib",
-    "build:webappcss": "projext build webappcss",
-    "build:webappconfig": "projext build webappconfig",
-    "prebuild:webappmodules": "./utils/hello/install",
-    "build:webappmodules": "projext build webappmodules",
 
+    "build:expresswebapp": "projext build expresswebapp",
     "prebuild:expresswebapp:production": "projext build webapp --type production",
     "build:expresswebapp:production": "projext build expresswebapp --type production",
+
+    "build:jimpexwebapp": "projext build jimpexwebapp",
     "prebuild:jimpexwebapp:production": "projext build webapp --type production",
     "build:jimpexwebapp:production": "projext build jimpexwebapp --type production",
+
+    "build:weblib": "projext build weblib",
+    "build:weblib:production": "projext build weblib --type production",
+
+    "build:webappcss": "projext build webappcss",
+
+    "build:webappconfig": "projext build webappconfig",
+    "build:webappconfig:custom": "CONFIG=custom projext build webappconfig",
+
+    "prebuild:webappmodules": "./utils/hello/install",
+    "build:webappmodules": "projext build webappmodules",
 
     "start:webapp": "projext run webapp",
     "start:nodeapp": "projext run nodeapp",
@@ -47,8 +54,10 @@
     "start:jimpexwebapp": "projext run jimpexwebapp",
     "start:weblib": "projext run weblib",
     "start:webappcss": "projext run webappcss",
+
     "start:webappconfig": "projext run webappconfig",
     "start:webappconfig:custom": "CONFIG=custom projext run webappconfig",
+
     "prestart:webappmodules": "./utils/hello/install",
     "start:webappmodules": "projext run webappmodules"
   }

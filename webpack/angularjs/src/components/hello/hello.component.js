@@ -3,8 +3,15 @@ import webpackLogo from './assets/webpack-angular-logo.png';
 import './hello.scss';
 
 class HelloController {
-  constructor() {
+  constructor($log) {
+    'ngInject';
+
+    this.$log = $log;
     this.logo = webpackLogo;
+  }
+
+  $onInit() {
+    this.$log.info('Hello world!');
   }
 }
 

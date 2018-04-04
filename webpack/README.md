@@ -18,7 +18,7 @@ There are a lot of different targets on this project that show you how simple is
 - `webappconfig`: A browser target with dynamic configuration.
 - `webappmodules`: A browser target that builds the code of a Node module in order to implement it.
 
-[Read the project README](./basic/README.md).
+[Read the project README](./basic).
 
 ## AngularJS
 
@@ -26,7 +26,7 @@ A simple web app using the [AngularJS](http://angularjs.org/) [projext webpack p
 
 And taking advantage of projext zero configuration feature, this project doesn't even have a configuration file.
 
-[Read the project README](./angularjs/README.md).
+[Read the project README](./angularjs).
 
 ## React
 
@@ -38,4 +38,4 @@ This project uses the [React](http://reactjs.org/) [projext webpack plugin](http
 - `webapphot`: The same app as on the other target, but with [Hot Module Replacement](https://webpack.js.org/concepts/hot-module-replacement/).
 - `expresswebappssr`: A Node [express](https://expressjs.com) app that serves the `webapp` target code using server side rendering.
 
-[Read the project README](./react/README.md).
+[Read the project README](./react).

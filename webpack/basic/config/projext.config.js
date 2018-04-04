@@ -1,5 +1,8 @@
 module.exports = {
   targets: {
+    express: {
+      excludeModules: ['wootils/node/logger'],
+    },
     webappconfig: {
       configuration: {
         enabled: true,
@@ -10,6 +13,9 @@ module.exports = {
         modules: true,
         inject: true,
       },
+    },
+    webappmodules: {
+      includeModules: ['hello'],
     },
   },
   copy: {

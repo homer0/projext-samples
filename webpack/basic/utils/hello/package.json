@@ -1,0 +1,9 @@
+{
+  "name": "hello",
+  "description": "Just an example of a unblunded module projext will process",
+  "version": "1.0.0",
+  "repository": "homer0/projext-samples",
+  "author": "Leonardo Apiwan (@homer0) <me@homer0.com>",
+  "license": "MIT",
+  "main": "src/index.js"
+}

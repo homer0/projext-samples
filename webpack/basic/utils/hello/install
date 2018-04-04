@@ -1,0 +1,2 @@
+mkdir -p node_modules/hello
+cp -Rf utils/hello/* node_modules/hello/

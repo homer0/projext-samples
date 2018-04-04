@@ -6195,9 +6195,9 @@ projext-plugin-webpack@4.0.2:
     webpack-node-utils "3.0.0"
     wootils "^1.1.1"
 
-projext@3.0.1, projext@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/projext/-/projext-3.0.1.tgz#f9fc983073a3a80e8f225b56c9e15e80974fa6e3"
+projext@^3.0.1, projext@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/projext/-/projext-3.0.2.tgz#8c4bb72775147485368dbb67b8de6955db0172bb"
   dependencies:
     babel-cli "6.26.0"
     babel-core "6.26.0"

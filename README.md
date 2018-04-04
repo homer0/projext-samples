@@ -4,6 +4,12 @@ This is a repository of sample projects using projext with different build engin
 
 Since one of the main points of projext is to avoid having large configurations, the idea is not to use the code of these projects as boiler plate but just as reference.
 
+## Build engines
+
+There's only one for now, but the list will grow **very soon**.
+
+- [webpack](./webpack)
+
 ## Structure
 
 The repository structure looks like this:

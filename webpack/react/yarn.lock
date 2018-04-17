@@ -4548,7 +4548,7 @@ isurl@^1.0.0-alpha5:
     has-to-string-tag-x "^1.2.0"
     is-object "^1.0.1"
 
-"jimple@github:homer0/jimple", jimple@homer0/jimple:
+jimple@homer0/jimple:
   version "1.4.6"
   resolved "https://codeload.github.com/homer0/jimple/tar.gz/1f123c2ba1f0aef14de159747455f877f70e0c9d"
 
@@ -6216,9 +6216,9 @@ progress@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.0.tgz#8a1be366bf8fc23db2bd23f10c6fe920b4389d1f"
 
-projext-plugin-webpack-react@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/projext-plugin-webpack-react/-/projext-plugin-webpack-react-2.0.1.tgz#0a2e12fa254d6ca97c818e71de6b0f837206e9cc"
+projext-plugin-webpack-react@2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/projext-plugin-webpack-react/-/projext-plugin-webpack-react-2.0.2.tgz#ff4f9f66bfb6730d4da3da40994413d8918c2b90"
   dependencies:
     babel-preset-react "6.24.1"
     react-hot-loader "4.0.1"

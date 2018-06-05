@@ -1,0 +1,6 @@
+# Install this dummy module on the node_modules directory.
+#
+# - Make sure the directory exists.
+mkdir -p node_modules/hello
+# - Copy the contents of this directory to the new one on node_modules.
+cp -Rf utils/hello/* node_modules/hello/

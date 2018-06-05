@@ -1,0 +1,57 @@
+{
+  "name": "projext-samples-rollup-basic",
+  "description": "Sample projext configuration",
+  "version": "1.0.0",
+  "repository": "homer0/projext-samples",
+  "author": "Leonardo Apiwan (@homer0) <me@homer0.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.16.2",
+    "jimpex": "2.1.0",
+    "prettysize": "^1.1.0",
+    "wootils": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "4.18.2",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.9.0",
+    "eslint-plugin-node": "6.0.1",
+    "font-awesome": "4.7.0",
+    "normalize.css": "8.0.0",
+    "projext": "4.0.0-beta.3",
+    "projext-plugin-rollup": "0.0.10"
+  },
+  "engine-strict": true,
+  "engines": {
+    "node": "6"
+  },
+  "scripts": {
+    "build:webapp": "projext build webapp",
+    "build:nodeapp": "projext build nodeapp",
+    "build:express": "projext build express",
+    "build:expresswebapp": "projext build expresswebapp",
+    "prebuild:expresswebapp:production": "projext build webapp --type production",
+    "build:expresswebapp:production": "projext build expresswebapp --type production",
+    "build:jimpexwebapp": "projext build jimpexwebapp",
+    "prebuild:jimpexwebapp:production": "projext build webapp --type production",
+    "build:jimpexwebapp:production": "projext build jimpexwebapp --type production",
+    "build:weblib": "projext build weblib",
+    "build:weblib:production": "projext build weblib --type production",
+    "build:webappcss": "projext build webappcss",
+    "build:webappconfig": "projext build webappconfig",
+    "build:webappconfig:custom": "CONFIG=custom projext build webappconfig",
+    "prebuild:webappmodules": "./utils/hello/install",
+    "build:webappmodules": "projext build webappmodules",
+    "start:webapp": "projext run webapp",
+    "start:nodeapp": "projext run nodeapp",
+    "start:express": "projext run express",
+    "start:expresswebapp": "projext run expresswebapp",
+    "start:jimpexwebapp": "projext run jimpexwebapp",
+    "start:weblib": "projext run weblib",
+    "start:webappcss": "projext run webappcss",
+    "start:webappconfig": "projext run webappconfig",
+    "start:webappconfig:custom": "CONFIG=custom projext run webappconfig",
+    "prestart:webappmodules": "./utils/hello/install",
+    "start:webappmodules": "projext run webappmodules"
+  }
+}

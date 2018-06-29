@@ -9,7 +9,7 @@
   "devDependencies": {
     "angular": "1.7.2",
     "projext": "^4.0.0-beta.10",
-    "projext-plugin-rollup": "^0.0.20",
+    "projext-plugin-rollup": "^0.0.21",
     "projext-plugin-rollup-angularjs": "^0.0.4",
     "wootils": "^1.3.2",
     "eslint": "4.19.1",

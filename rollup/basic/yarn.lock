@@ -3729,9 +3729,9 @@ progress@^2.0.0:
   version "2.0.0"
   resolved "http://local.npm/progress/-/progress-2.0.0.tgz#8a1be366bf8fc23db2bd23f10c6fe920b4389d1f"
 
-projext-plugin-rollup@^0.0.20:
-  version "0.0.20"
-  resolved "http://local.npm/projext-plugin-rollup/-/projext-plugin-rollup-0.0.20.tgz#83c62b16327580b5d5e2c85a80544a33688d1aec"
+projext-plugin-rollup@^0.0.21:
+  version "0.0.21"
+  resolved "http://local.npm/projext-plugin-rollup/-/projext-plugin-rollup-0.0.21.tgz#a669258eaa72cd026d84c6e7f85fec5e873ce752"
   dependencies:
     babel-core "6.26.3"
     babel-preset-env "1.7.0"

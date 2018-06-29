@@ -3,9 +3,7 @@ module.exports = {
     expresswebappssr: {
       bundle: true,
       excludeModules: ['wootils/node/logger'],
-      frameworkOptions: {
-        ssr: ['webapp'],
-      },
+      includeTargets: ['webapp'],
     },
   },
 };

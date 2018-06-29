@@ -1,7 +1,7 @@
 /**
  * An unnecessary class to organize a dummy library :p.
  */
-class WebLib {
+export default class WebLib {
   /**
    * Write a _"hello message"_ on a DOM element.
    * @param {string} selector A query selector for the DOM element.
@@ -11,6 +11,4 @@ class WebLib {
   }
 }
 // The export needs to be named to be supported by UMD.
-module.exports = {
-  webLib: new WebLib(),
-};
+export const webLib = new WebLib();

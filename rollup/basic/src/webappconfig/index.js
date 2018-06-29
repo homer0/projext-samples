@@ -1,8 +1,8 @@
 /* eslint-disable no-process-env */
-const hello = require('./hello.html');
-const rollupLogo = require('./assets/rollup-logo.png');
-require('./assets/styles.scss');
-require('./assets/favicon.ico');
+import hello from './hello.html';
+import rollupLogo from './assets/rollup-logo.png';
+import './assets/styles.scss';
+import './assets/favicon.ico';
 
 /**
  * Get the configuration projext will inject. To be clear, neither `process` or `env` exists,

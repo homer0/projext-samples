@@ -1,7 +1,7 @@
-const hello = require('./hello.html');
-const rollupLogo = require('./assets/rollup-logo.png');
-require('./assets/styles.scss');
-require('./assets/favicon.ico');
+import hello from './hello.html';
+import rollupLogo from './assets/rollup-logo.png';
+import './assets/styles.scss';
+import './assets/favicon.ico';
 
 // Get the DOM element where the app will be rendered.
 const app = document.querySelector('#app');

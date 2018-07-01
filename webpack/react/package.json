@@ -6,23 +6,23 @@
   "author": "Leonardo Apiwan (@homer0) <me@homer0.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "4.16.2",
-    "wootils": "1.1.1"
+    "express": "^4.16.3",
+    "wootils": "^1.3.2"
   },
   "devDependencies": {
-    "react": "16.3.0",
-    "react-dom": "16.3.0",
-    "react-hot-loader": "4.0.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-hot-loader": "^4.3.3",
 
-    "projext": "^3.0.3",
-    "projext-plugin-webpack": "4.0.3",
-    "projext-plugin-webpack-react": "2.0.2",
+    "projext": "^4.0.0",
+    "projext-plugin-webpack": "^5.0.0",
+    "projext-plugin-webpack-react": "^3.0.0",
 
-    "eslint": "4.18.2",
-    "eslint-config-airbnb-base": "12.1.0",
-    "eslint-plugin-import": "2.9.0",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb-base": "13.0.0",
+    "eslint-plugin-import": "2.12.0",
     "eslint-plugin-node": "6.0.1",
-    "eslint-plugin-react": "7.7.0"
+    "eslint-plugin-react": "7.10.0"
   },
   "engine-strict": true,
   "engines": {

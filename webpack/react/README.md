@@ -1,4 +1,4 @@
-# projext - samples - webpack - react
+# projext - samples - webpack - React
 
 This project has 3 different targets that show you how easy is to implement [React](http://reactjs.org/) using the [webpack](https://webpack.js.org/) [build engine](https://yarnpkg.com/en/package/projext-plugin-webpack) and the [React plugin for it](https://yarnpkg.com/en/package/projext-plugin-webpack-react).
 
@@ -85,9 +85,7 @@ targets: {
   expresswebappssr: {
     bundle: true,
     excludeModules: ['wootils/node/logger'],
-    frameworkOptions: {
-      ssr: ['webapp'],
-    },
+    includeTargets: ['webapp'],
   },
   ...
 }
@@ -97,7 +95,7 @@ First, we need to enable the `bundle` flag, because the `webapp` target imports 
 
 Then we need to use `excludeModules` to tell projext that the [wootils logger](https://homer0.github.io/wootils/manual/logger.html) shouldn't be bundled. The reason is that projext reads the project `package.json` and identifies the name of the dependencies in order to flag them, but `wootils/node/logger` is not on the `package.json`, `wootils` is; and unfortunately, the webpack feature used for this doesn't support `RegExp`s, so we need to help projext and webpack and tell them about this kind of cases.
 
-Finally, we use the `frameworkOptions.ssr` setting to tell the plugin that this target is going to do SSR of `webapp`; the plugin will take care of telling projext and webpack that the code of that target needs to be processed for JSX and assets.
+Finally, we use the `includeTargets` setting to tell the projext that this target is going to do SSR of `webapp`; projext will take care of telling the build engine that the code of that target needs to be processed for JSX and assets.
 
 Going back to the target itself, there are two entry files, one for development (`index.js`) and one for production (`index.production.js`). This is because you can't use the dev middleware, which we use to run the Javascript of `webapp` on production, is intended to be used as a development tool.
 

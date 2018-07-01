@@ -91,7 +91,7 @@ yarn run start:express
 
 ## `expresswebapp`
 
-This is an [express](https://expressjs.com) app that uses the [webpack dev middleware](https://yarnpkg.com/en/package/webpack-dev-middleware) to server the `webapp` target.
+This is an [express](https://expressjs.com) app that uses the [webpack dev middleware](https://yarnpkg.com/en/package/webpack-dev-middleware) to serve the `webapp` target.
 
 Now, this target has two entry files, one for development (`index.js`) and one for production (`index.production.js`). This is because you can't use the dev middleware on production, is intended to be used as a development tool.
 
@@ -131,7 +131,7 @@ node index.production.js
 
 Very similar to the `expresswebapp` target, this one uses [jimpex](https://yarnpkg.com/en/package/jimpex) to implement the dev middleware and serve `webapp`.
 
-Something _"special"_ about this target is that it required a projext feature on the project configuration that is not a target setting:
+Something _"special"_ about this target is that it requires a projext feature on the project configuration that is not a target setting:
 
 ```js
 copy: {

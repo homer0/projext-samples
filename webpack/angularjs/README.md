@@ -1,4 +1,4 @@
-# projext - samples - webpack - angularjs
+# projext - samples - webpack - AngularJS
 
 This project is really small, as it only includes one target, and it shows you how to easily start an [AngularJS](https://angularjs.org) app using the [webpack](https://webpack.js.org/) [build engine](https://yarnpkg.com/en/package/projext-plugin-webpack) and the [AngularJS plugin for it](https://yarnpkg.com/en/package/projext-plugin-webpack-angularjs).
 

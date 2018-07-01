@@ -13,9 +13,9 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
 
-    "projext": "^4.0.0-beta.10",
-    "projext-plugin-rollup": "^0.0.21",
-    "projext-plugin-rollup-react": "0.0.4",
+    "projext": "^4.0.0",
+    "projext-plugin-rollup": "^1.0.0",
+    "projext-plugin-rollup-react": "^1.0.0",
 
     "eslint": "4.19.1",
     "eslint-config-airbnb-base": "13.0.0",

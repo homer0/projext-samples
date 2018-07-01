@@ -8,9 +8,9 @@
   "dependencies": {},
   "devDependencies": {
     "angular": "1.7.2",
-    "projext": "^4.0.0-beta.10",
-    "projext-plugin-rollup": "^0.0.21",
-    "projext-plugin-rollup-angularjs": "^0.0.4",
+    "projext": "^4.0.0",
+    "projext-plugin-rollup": "^1.0.0",
+    "projext-plugin-rollup-angularjs": "^1.0.0",
     "wootils": "^1.3.2",
     "eslint": "4.19.1",
     "eslint-config-airbnb-base": "13.0.0",

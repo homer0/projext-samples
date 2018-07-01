@@ -6,9 +6,8 @@ Since one of the main points of projext is to avoid having large configurations,
 
 ## Build engines
 
-There's only one for now, but the list will grow **very soon**.
-
 - [webpack](./webpack)
+- [Rollup](./rollup)
 
 ## Structure
 
@@ -36,7 +35,7 @@ The repository structure looks like this:
         └── package.json
 ```
 
-The root directory has one folder per build engine (right now is only `webpack`).
+The root directory has one folder per build engine.
 
 Inside each build engine folder there would be a `basic` folder for a sample project that doesn't involve the use of frameworks.
 

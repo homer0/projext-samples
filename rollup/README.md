@@ -1,6 +1,6 @@
-# projext - samples - webpack
+# projext - samples - Rollup
 
-All the sample projects on this directory use the [projext](https://yarnpkg.com/en/package/projext) [webpack](https://webpack.js.org/) [build engine](https://yarnpkg.com/en/package/projext-plugin-webpack) for building all kind of different things:
+All the sample projects on this directory use the [projext](https://yarnpkg.com/en/package/projext) [Rollup](https://rollupjs.org/) [build engine](https://yarnpkg.com/en/package/projext-plugin-rollup) for building all kind of different things:
 
 ## Basic
 
@@ -22,7 +22,7 @@ There are a lot of different targets on this project that show you how simple is
 
 ## AngularJS
 
-A simple web app using the [AngularJS](http://angularjs.org/) [projext webpack plugin](https://yarnpkg.com/en/package/projext-plugin-webpack-angularjs). Is the exact same app as the `webapp` target from the `basic` project but with AngularJS components.
+A simple web app using the [AngularJS](http://angularjs.org/) [projext Rollup plugin](https://yarnpkg.com/en/package/projext-plugin-rollup-angularjs). Is the exact same app as the `webapp` target from the `basic` project but with AngularJS components.
 
 And taking advantage of projext zero configuration feature, this project doesn't even have a configuration file.
 
@@ -30,10 +30,9 @@ And taking advantage of projext zero configuration feature, this project doesn't
 
 ## React
 
-This project uses the [React](http://reactjs.org/) [projext webpack plugin](https://yarnpkg.com/en/package/projext-plugin-webpack-react) and 3 targets to show you very common React scenarios:
+This project uses the [React](http://reactjs.org/) [projext webpack plugin](https://yarnpkg.com/en/package/projext-plugin-rollup-react) and 2 targets to show you very common React scenarios:
 
 - `webapp`: Like on the others, a small browser target that shows a message.
-- `webapphot`: The same app as on the other target, but with [Hot Module Replacement](https://webpack.js.org/concepts/hot-module-replacement/).
 - `expresswebappssr`: A Node [express](https://expressjs.com) app that serves the `webapp` target code using server side rendering.
 
 [Read the project README](./react).

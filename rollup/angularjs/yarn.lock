@@ -3400,11 +3400,12 @@ projext-plugin-rollup-angularjs@^1.0.0:
     babel-plugin-angularjs-annotate "0.9.0"
     babel-plugin-external-helpers "6.22.0"
 
-projext-plugin-rollup@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/projext-plugin-rollup/-/projext-plugin-rollup-1.0.0.tgz#951aca83817c152ef510b40cc17dc6990517aea7"
+projext-plugin-rollup@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/projext-plugin-rollup/-/projext-plugin-rollup-1.2.0.tgz#9eb18d4daa7d44c8d68b75c3c3b7ae8cee8257b2"
   dependencies:
     babel-core "6.26.3"
+    babel-plugin-external-helpers "6.22.0"
     babel-preset-env "1.7.0"
     builtin-modules "3.0.0"
     colors "1.3.0"
@@ -3417,7 +3418,7 @@ projext-plugin-rollup@^1.0.0:
     postcss "6.0.23"
     postcss-modules "1.1.0"
     prettysize "1.1.0"
-    projext "^4.0.0"
+    projext "^4.1.0"
     rollup "0.61.2"
     rollup-plugin-babel "3.0.5"
     rollup-plugin-commonjs "9.1.3"
@@ -3430,9 +3431,9 @@ projext-plugin-rollup@^1.0.0:
     rollup-pluginutils "2.3.0"
     wootils "^1.3.2"
 
-projext@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/projext/-/projext-4.0.0.tgz#e19f75b24233d44adc712193732bc998d288e760"
+projext@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/projext/-/projext-4.1.0.tgz#3be9ef6a5c2726b5774d044da1b836abcf92f323"
   dependencies:
     babel-cli "6.26.0"
     babel-core "6.26.3"

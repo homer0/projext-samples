@@ -364,7 +364,7 @@ array-unique@^0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/array-unique/-/array-unique-0.3.2.tgz#a894b75d4bc4f6cd679ef3244a9fd8f46ae2d428"
 
-arrify@^1.0.0:
+arrify@^1.0.0, arrify@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/arrify/-/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
 
@@ -1866,6 +1866,19 @@ copy-descriptor@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
 
+copy-webpack-plugin@4.5.2:
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/copy-webpack-plugin/-/copy-webpack-plugin-4.5.2.tgz#d53444a8fea2912d806e78937390ddd7e632ee5c"
+  dependencies:
+    cacache "^10.0.4"
+    find-cache-dir "^1.0.0"
+    globby "^7.1.1"
+    is-glob "^4.0.0"
+    loader-utils "^1.1.0"
+    minimatch "^3.0.4"
+    p-limit "^1.0.0"
+    serialize-javascript "^1.4.0"
+
 core-js@^2.4.0, core-js@^2.5.0:
   version "2.5.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.7.tgz#f972608ff0cead68b841a16a932d0b183791814e"
@@ -2390,6 +2403,13 @@ diffie-hellman@^5.0.0:
     bn.js "^4.1.0"
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
+
+dir-glob@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/dir-glob/-/dir-glob-2.0.0.tgz#0b205d2b6aef98238ca286598a8204d29d0a0034"
+  dependencies:
+    arrify "^1.0.1"
+    path-type "^3.0.0"
 
 dns-equal@^1.0.0:
   version "1.0.0"
@@ -3536,6 +3556,17 @@ globby@^6.1.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
+globby@^7.1.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/globby/-/globby-7.1.1.tgz#fb2ccff9401f8600945dfada97440cca972b8680"
+  dependencies:
+    array-union "^1.0.1"
+    dir-glob "^2.0.0"
+    glob "^7.1.2"
+    ignore "^3.3.5"
+    pify "^3.0.0"
+    slash "^1.0.0"
+
 globule@^1.0.0:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/globule/-/globule-1.2.1.tgz#5dffb1b191f22d20797a9369b49eab4e9839696d"
@@ -3957,7 +3988,7 @@ ignore-walk@^3.0.1:
   dependencies:
     minimatch "^3.0.4"
 
-ignore@^3.3.3, ignore@^3.3.6:
+ignore@^3.3.3, ignore@^3.3.5, ignore@^3.3.6:
   version "3.3.10"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-3.3.10.tgz#0a97fb876986e8081c631160f8f9f389157f0043"
 
@@ -5744,7 +5775,7 @@ p-finally@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
 
-p-limit@^1.1.0:
+p-limit@^1.0.0, p-limit@^1.1.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/p-limit/-/p-limit-1.3.0.tgz#b86bd5f0c25690911c7590fcbfc2010d54b3ccb8"
   dependencies:
@@ -5895,6 +5926,12 @@ path-type@^2.0.0:
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-2.0.0.tgz#f012ccb8415b7096fc2daa1054c3d72389594c73"
   dependencies:
     pify "^2.0.0"
+
+path-type@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/path-type/-/path-type-3.0.0.tgz#cef31dc8e0a1a3bb0d105c0cd97cf3bf47f4e36f"
+  dependencies:
+    pify "^3.0.0"
 
 pause-stream@0.0.11:
   version "0.0.11"
@@ -6269,13 +6306,14 @@ projext-plugin-webpack-angularjs@^3.0.0:
   dependencies:
     babel-plugin-angularjs-annotate "0.9.0"
 
-projext-plugin-webpack@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/projext-plugin-webpack/-/projext-plugin-webpack-5.0.0.tgz#ed3f1128f0ad27b99a8161108c6c1e4413e64d2d"
+projext-plugin-webpack@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/projext-plugin-webpack/-/projext-plugin-webpack-5.2.0.tgz#111a4654e007ad3376c28ddd90e3328979662d32"
   dependencies:
     babel-core "6.26.3"
     babel-loader "7.1.4"
     compression-webpack-plugin "1.1.11"
+    copy-webpack-plugin "4.5.2"
     css-loader "0.28.11"
     extend "3.0.1"
     file-loader "1.1.11"
@@ -6287,7 +6325,7 @@ projext-plugin-webpack@^5.0.0:
     node-sass "4.9.0"
     opener "1.4.3"
     optimize-css-assets-webpack-plugin "4.0.2"
-    projext "^4.0.0"
+    projext "^4.1.0"
     raw-loader "0.5.1"
     resolve-url-loader "2.3.0"
     sass-loader "7.0.3"
@@ -6303,9 +6341,9 @@ projext-plugin-webpack@^5.0.0:
     webpack-hot-middleware "2.22.2"
     wootils "^1.3.2"
 
-projext@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/projext/-/projext-4.0.0.tgz#e19f75b24233d44adc712193732bc998d288e760"
+projext@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/projext/-/projext-4.1.0.tgz#3be9ef6a5c2726b5774d044da1b836abcf92f323"
   dependencies:
     babel-cli "6.26.0"
     babel-core "6.26.3"

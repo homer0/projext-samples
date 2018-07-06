@@ -19,6 +19,16 @@ module.exports = {
     webappmodules: {
       includeModules: ['hello'],
     },
+    webappcopy: {
+      copy: [
+        'public/public.css',
+        'public/status.html',
+        {
+          from: 'public/time.html',
+          to: 'info/time.html',
+        },
+      ],
+    },
   },
   copy: {
     enabled: true,

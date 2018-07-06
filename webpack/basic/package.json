@@ -11,8 +11,8 @@
     "wootils": "^1.3.2"
   },
   "devDependencies": {
-    "projext": "^4.0.0",
-    "projext-plugin-webpack": "^5.0.0",
+    "projext": "^4.1.0",
+    "projext-plugin-webpack": "^5.2.0",
 
     "normalize.css": "8.0.0",
     "font-awesome": "4.7.0",
@@ -50,6 +50,8 @@
     "prebuild:webappmodules": "./utils/hello/install",
     "build:webappmodules": "projext build webappmodules",
 
+    "build:webappcopy": "projext build webappcopy",
+
     "start:webapp": "projext run webapp",
     "start:nodeapp": "projext run nodeapp",
     "start:express": "projext run express",
@@ -62,6 +64,8 @@
     "start:webappconfig:custom": "CONFIG=custom projext run webappconfig",
 
     "prestart:webappmodules": "./utils/hello/install",
-    "start:webappmodules": "projext run webappmodules"
+    "start:webappmodules": "projext run webappmodules",
+
+    "start:webappcopy": "projext run webappcopy"
   }
 }

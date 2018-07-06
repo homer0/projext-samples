@@ -331,3 +331,45 @@ And test it on your browser with this command:
 ```bash
 yarn run start:webappmodules
 ```
+
+## `webappcopy`
+
+This target makes use of two projext features:
+
+First, the `copy` target setting, which allows projext to copy specific files during the bundling process.
+
+The target uses the `copy` two HTML files and a stylesheet:
+
+```js
+webappcopy: {
+  copy: [
+    'public/public.css',
+    'public/status.html',
+    {
+      from: 'public/time.html',
+      to: 'info/time.html',
+    },
+  ],
+}
+```
+
+That says that `public.css` and `status.html` will end up on the root of the target distribution directory, but `time.html` will be inside an `info` folder.
+
+
+The other feature this target takes advantage from is "custom plugins". On the project configuration you can define paths for custom plugins you want projext to load, but if you create a `projext.plugin.js` on either the root directory or on `/config`, projext will detect it and load it automatically.
+
+This project has a `/config/projext.plugin.js` that listens for the reducer event of the list of files a target will copy. It first filters that target name so it will only act for `webappcopy`, then, if one of the files to copy is `time.html`, it adds a `transform` function that will inject the current time on the contents of the file when it gets copied.
+
+You should open the file, it's fully documented step by step.
+
+Now, you can build it using this command:
+
+```bash
+yarn run build:webappcopy
+```
+
+And test it on your browser with this command:
+
+```bash
+yarn run start:webappcopy
+```

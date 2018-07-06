@@ -14,8 +14,8 @@
     "react-dom": "^16.4.1",
     "react-hot-loader": "^4.3.3",
 
-    "projext": "^4.0.0",
-    "projext-plugin-webpack": "^5.0.0",
+    "projext": "^4.1.0",
+    "projext-plugin-webpack": "^5.2.0",
     "projext-plugin-webpack-react": "^3.0.0",
 
     "eslint": "4.19.1",

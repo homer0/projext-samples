@@ -17,6 +17,7 @@ There are a lot of different targets on this project that show you how simple is
 - `webappcss`: A browser target that injects the styles on the HTML rather than having a stylesheet file.
 - `webappconfig`: A browser target with dynamic configuration.
 - `webappmodules`: A browser target that builds the code of a Node module in order to implement it.
+- `webappcopy`: A browser target that copies files during the bundling process and takes advantage of custom plugins.
 
 [Read the project README](./basic).
 

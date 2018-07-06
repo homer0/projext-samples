@@ -13,8 +13,8 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
 
-    "projext": "^4.0.0",
-    "projext-plugin-rollup": "^1.0.0",
+    "projext": "^4.1.0",
+    "projext-plugin-rollup": "^1.2.0",
     "projext-plugin-rollup-react": "^1.0.0",
 
     "eslint": "4.19.1",

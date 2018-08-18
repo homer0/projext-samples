@@ -7,19 +7,19 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "angular": "1.7.2",
-    "projext": "^4.1.0",
-    "projext-plugin-rollup": "^1.2.0",
+    "angular": "^1.7.3",
+    "projext": "^5.0.0",
+    "projext-plugin-rollup": "^2.0.0",
     "projext-plugin-rollup-angularjs": "^1.0.0",
     "wootils": "^1.3.2",
-    "eslint": "4.19.1",
-    "eslint-config-airbnb-base": "13.0.0",
-    "eslint-plugin-import": "2.12.0",
-    "eslint-plugin-node": "6.0.1"
+    "eslint": "5.3.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-node": "7.0.1"
   },
   "engine-strict": true,
   "engines": {
-    "node": "6"
+    "node": ">=6"
   },
   "scripts": {
     "build": "projext build",

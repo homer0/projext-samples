@@ -1,0 +1,39 @@
+{
+  "name": "projext-samples-webpack-aurelia",
+  "description": "Sample projext configuration",
+  "version": "1.0.0",
+  "repository": "homer0/projext-samples",
+  "author": "Leonardo Apiwan (@homer0) <me@homer0.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "aurelia-bootstrapper": "^2.3.3",
+    "aurelia-fetch-client": "^1.8.2",
+    "aurelia-framework": "^1.3.1",
+    "aurelia-history-browser": "^1.4.0",
+    "aurelia-logging-console": "^1.1.1",
+    "aurelia-pal-browser": "^1.8.1",
+    "aurelia-polyfills": "^1.3.4",
+    "aurelia-templating": "^1.10.2",
+    "aurelia-templating-binding": "^1.5.3",
+    "aurelia-templating-resources": "^1.11.0",
+
+    "projext": "^7.0.0",
+    "projext-plugin-webpack": "^9.0.0",
+    "projext-plugin-webpack-aurelia": "^2.0.0",
+    "wootils": "^2.6.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "babel-eslint": "^10.0.2"
+  },
+  "engine-strict": true,
+  "engines": {
+    "node": ">=8.10"
+  },
+  "scripts": {
+    "build": "projext build",
+    "start": "projext run"
+  }
+}

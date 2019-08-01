@@ -30,6 +30,14 @@ And taking advantage of projext zero configuration feature, this project doesn't
 
 [Read the project README](./angularjs).
 
+## Aurelia
+
+A simple web app using the [Aurelia](http://aurelia.io/) [projext webpack plugin](https://yarnpkg.com/en/package/projext-plugin-webpack-aurelia). Is the exact same app as the `webapp` target from the `basic` project but with Aurelia components.
+
+And taking advantage of projext zero configuration feature, this project doesn't even have a configuration file.
+
+[Read the project README](./aurelia).
+
 ## React
 
 This project uses the [React](http://reactjs.org/) [projext webpack plugin](https://yarnpkg.com/en/package/projext-plugin-webpack-react) and 3 targets to show you very common React scenarios:

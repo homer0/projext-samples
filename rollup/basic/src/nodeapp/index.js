@@ -1,5 +1,5 @@
 const { Logger } = require('wootils/node/logger');
 
 const logger = new Logger();
-logger.success('Hello projext!');
+logger.success(process.env.HELLO_MESSAGE);
 logger.info('Sample app using Rollup');

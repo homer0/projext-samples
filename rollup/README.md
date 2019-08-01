@@ -37,3 +37,12 @@ This project uses the [React](http://reactjs.org/) [projext webpack plugin](http
 - `expresswebappssr`: A Node [express](https://expressjs.com) app that serves the `webapp` target code using server side rendering.
 
 [Read the project README](./react).
+
+## TypeScript
+
+This project has targets that use [TypeScript](https://www.typescriptlang.org/):
+
+- `webapp`: Another ersion of the small browser app that shows a message.
+- `nodeapp`: A Node target that just logs a message.
+
+[Read the project README](./typeScript).

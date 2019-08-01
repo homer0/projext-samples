@@ -44,6 +44,8 @@ yarn run start:webapp
 
 Tiny Node app that just says `Hello projext!!` and nothing else. Since it doesn't require bundling nor transpiling, if you try to build it, you'll just see a warning saying that there's no need for it.
 
+While the message looks hardcoded, the definition for it comes from an `.env` file on the root directory: `.env.nodeapp`; projext automatically finds the `.env` file and injects the variables on the environment.
+
 You can build it using this command:
 
 ```bash
@@ -246,7 +248,7 @@ yarn run start:webappcss
 
 ## `webappconfig`
 
-Yet another variation of the `webapp` target. This one implements [dynamic browser target configuration](https://homer0.github.io/projext/manual/browserTargetConfiguration.html). Let's see how the feature is enabled on the project configuration:
+Yet another variation of the `webapp` target. This one implements [dynamic browser target configuration](https://homer0.github.io/projext/manual/browserTargetConfiguration.html) and an `.env` file. Let's see how the feature is enabled on the project configuration:
 
 ```js
 targets: {
@@ -265,7 +267,9 @@ If you check the code, you'll see the that configuration is replacing `process.e
 
 > For more information about the dynamic browser target configuration feature, you can read the [projext documentation](https://homer0.github.io/projext/manual/browserTargetConfiguration.html).
 
-Now, this target has two build commands and two run commands, ones with the default configuration and the others with a custom one.
+Now, the target also uses an `.env` file for declaring a message that the custom configuration will use. This doesn't need any setting, projext finds the `.env.[target-name]` file automatically and loads its variables.
+
+This target has two build commands and two run commands, ones with the default configuration and the others with a custom one.
 
 You can build the target with the default configuration using this command:
 
@@ -355,7 +359,6 @@ webappcopy: {
 
 That says that `public.css` and `status.html` will end up on the root of the target distribution directory, but `time.html` will be inside an `info` folder.
 
-
 The other feature this target takes advantage from is "custom plugins". On the project configuration you can define paths for custom plugins you want projext to load, but if you create a `projext.plugin.js` on either the root directory or on `/config`, projext will detect it and load it automatically.
 
 This project has a `/config/projext.plugin.js` that listens for the reducer event of the list of files a target will copy. It first filters that target name so it will only act for `webappcopy`, then, if one of the files to copy is `time.html`, it adds a `transform` function that will inject the current time on the contents of the file when it gets copied.
@@ -374,3 +377,20 @@ And test it on your browser with this command:
 yarn run start:webappcopy
 ```
 
+## `webappsplit`
+
+This target is an example of [code splitting](https://developers.google.com/web/fundamentals/performance/optimizing-javascript/code-splitting/).
+
+There's no special configuration for this feature, projext (actually Babel and webpack) will detect the use of `import` as a function and generate an extra chunk.
+
+Now, you can build it using this command:
+
+```bash
+yarn run build:webappsplit
+```
+
+And test it on your browser with this command:
+
+```bash
+yarn run start:webappsplit
+```

@@ -47,7 +47,7 @@ yarn run start:webapp
 
 ## `webapphot`
 
-This is the exact same app as `webapp` but with [Hot Module Replacement](https://webpack.js.org/concepts/hot-module-replacement/).
+This is the exact same app as `webapp` but with [Hot Module Replacement](https://webpack.js.org/concepts/hot-module-replacement/) and using a variable from an `.env` file.
 
 Since there's no way for projext to truly verify if a target uses HMR or not, we need to enable it using a setting on the configuration file:
 

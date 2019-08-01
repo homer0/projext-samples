@@ -29,6 +29,13 @@ module.exports = {
         },
       ],
     },
+    webappsplit: {
+      output: {
+        default: {
+          jsChunks: true,
+        },
+      },
+    },
   },
   copy: {
     enabled: true,

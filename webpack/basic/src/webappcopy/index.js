@@ -1,8 +1,8 @@
-const hello = require('./hello.html');
-const list = require('./list.html');
-const webpackLogo = require('./assets/webpack-logo.png');
-require('./assets/styles.scss');
-require('./assets/favicon.ico');
+import hello from './hello.html';
+import list from './list.html';
+import webpackLogo from './assets/webpack-logo.png';
+import './assets/styles.scss';
+import './assets/favicon.ico';
 
 // Get the DOM element where the app will be rendered.
 const app = document.querySelector('#app');

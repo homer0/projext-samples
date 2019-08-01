@@ -3,6 +3,6 @@
  * full detail how this works.
  */
 module.exports = {
-  title: 'Hello projext :D!!',
+  title: process.env.APP_TITLE,
   subtitle: 'Sample app using Rollup and a custom browser target configuration',
 };

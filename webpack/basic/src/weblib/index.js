@@ -1,3 +1,5 @@
+/* eslint-disable import/prefer-default-export */
+
 /**
  * An unnecessary class to organize a dummy library :p.
  */
@@ -11,6 +13,4 @@ class WebLib {
   }
 }
 // The export needs to be named to be supported by UMD.
-module.exports = {
-  webLib: new WebLib(),
-};
+export const webLib = new WebLib();

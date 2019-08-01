@@ -1,0 +1,14 @@
+{
+  "extends": ["../../.eslintrc"],
+  "env": {
+    "browser": true,
+  },
+  "rules": {
+    "dynamic-import-chunkname": "off"
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  }
+}

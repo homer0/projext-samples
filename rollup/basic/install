@@ -1,4 +1,0 @@
-#!/bin/bash -e
-
-rm -rf ~/CODE/Node/projext/projext-samples/rollup/basic/node_modules/projext-plugin-rollup/src;
-cp -r ~/CODE/Node/projext/projext-plugin-rollup/src ~/CODE/Node/projext/projext-samples/rollup/basic/node_modules/projext-plugin-rollup;

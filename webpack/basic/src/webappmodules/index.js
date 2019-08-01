@@ -1,6 +1,6 @@
-const hello = require('hello');
-require('./assets/styles.scss');
-require('./assets/favicon.ico');
+import hello from 'hello';
+import './assets/styles.scss';
+import './assets/favicon.ico';
 
 // Get the DOM element where the app will be rendered.
 const app = document.querySelector('#app');

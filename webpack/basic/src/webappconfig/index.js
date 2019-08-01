@@ -1,8 +1,8 @@
 /* eslint-disable no-process-env */
-const hello = require('./hello.html');
-const webpackLogo = require('./assets/webpack-logo.png');
-require('./assets/styles.scss');
-require('./assets/favicon.ico');
+import hello from './hello.html';
+import webpackLogo from './assets/webpack-logo.png';
+import './assets/styles.scss';
+import './assets/favicon.ico';
 
 /**
  * Get the configuration projext will inject. To be clear, neither `process` or `env` exists,

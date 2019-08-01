@@ -18,6 +18,7 @@ There are a lot of different targets on this project that show you how simple is
 - `webappconfig`: A browser target with dynamic configuration.
 - `webappmodules`: A browser target that builds the code of a Node module in order to implement it.
 - `webappcopy`: A browser target that copies files during the bundling process and takes advantage of custom plugins.
+- `webappsplit`: A browser target that implements code splitting.
 
 [Read the project README](./basic).
 
@@ -38,3 +39,12 @@ This project uses the [React](http://reactjs.org/) [projext webpack plugin](http
 - `expresswebappssr`: A Node [express](https://expressjs.com) app that serves the `webapp` target code using server side rendering.
 
 [Read the project README](./react).
+
+## TypeScript
+
+This project has targets that use [TypeScript](https://www.typescriptlang.org/):
+
+- `webapp`: Another ersion of the small browser app that shows a message.
+- `nodeapp`: A Node target that just logs a message.
+
+[Read the project README](./typeScript).

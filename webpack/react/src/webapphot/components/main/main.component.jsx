@@ -7,9 +7,9 @@ import './main.scss';
  * _"Hello message"_.
  * @return {Object}
  */
-const Main = () => (
+const Main = ({ title }) => (
   <div className="main">
-    <Hello />
+    <Hello title={title} />
   </div>
 );
 // Export it while enabling HMR.

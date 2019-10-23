@@ -6,17 +6,15 @@
   "author": "Leonardo Apiwan (@homer0) <me@homer0.com>",
   "license": "MIT",
   "dependencies": {
-    "wootils": "^2.6.0"
+    "wootils": "^2.6.5"
   },
   "devDependencies": {
-    "projext": "^7.0.0",
-    "projext-plugin-webpack": "^9.0.0",
+    "projext": "^7.2.0",
+    "projext-plugin-webpack": "^9.2.2",
     "normalize.css": "^8.0.1",
     "font-awesome": "^4.7.0",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^9.1.0",
+    "eslint": "^6.5.1",
+    "eslint-plugin-homer0": "^2.0.1",
     "babel-eslint": "^10.0.2"
   },
   "engine-strict": true,

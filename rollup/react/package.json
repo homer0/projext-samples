@@ -7,19 +7,18 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
-    "wootils": "^2.6.0"
+    "wootils": "^2.6.5"
   },
   "devDependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "projext": "^7.0.0",
-    "projext-plugin-rollup": "^4.0.0",
-    "projext-plugin-rollup-react": "^3.0.0",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-react": "^7.14.3"
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "projext": "^7.2.0",
+    "projext-plugin-rollup": "^5.1.1",
+    "projext-plugin-rollup-react": "^3.0.1",
+    "eslint": "^6.5.1",
+    "eslint-plugin-homer0": "^2.0.1",
+    "eslint-plugin-react": "^7.16.0",
+    "babel-eslint": "^10.0.3"
   },
   "engine-strict": true,
   "engines": {

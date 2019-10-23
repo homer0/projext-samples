@@ -1,6 +1,10 @@
 {
-  "extends": ["../.eslintrc"],
-  "env": {
-    "browser": true,
+  "root": true,
+  "parser": "babel-eslint",
+  "plugins": ["homer0"],
+  "extends": ["plugin:homer0/browser"],
+  "rules": {
+    "import/no-extraneous-dependencies": "off",
+    "import/prefer-default-export": "off"
   }
 }

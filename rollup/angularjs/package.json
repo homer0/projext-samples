@@ -8,14 +8,13 @@
   "dependencies": {},
   "devDependencies": {
     "angular": "^1.7.8",
-    "projext": "^7.0.0",
-    "projext-plugin-rollup": "^4.0.0",
-    "projext-plugin-rollup-angularjs": "^3.0.0",
-    "wootils": "^2.6.0",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^9.1.0"
+    "projext": "^7.2.0",
+    "projext-plugin-rollup": "^5.1.1",
+    "projext-plugin-rollup-angularjs": "^3.0.1",
+    "wootils": "^2.6.5",
+    "eslint": "^6.5.1",
+    "eslint-plugin-homer0": "^2.0.1",
+    "babel-eslint": "^10.0.3"
   },
   "engine-strict": true,
   "engines": {

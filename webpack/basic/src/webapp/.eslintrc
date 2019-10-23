@@ -1,6 +1,5 @@
 {
-  "extends": ["../../.eslintrc"],
-  "env": {
-    "browser": true,
-  }
+  "root": true,
+  "plugins": ["homer0"],
+  "extends": ["plugin:homer0/browser"]
 }

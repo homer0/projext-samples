@@ -7,23 +7,24 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
-    "wootils": "^2.6.5"
+    "wootils": "^3.0.1"
   },
   "devDependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-hot-loader": "^4.12.15",
-    "projext": "^7.2.0",
-    "projext-plugin-webpack": "^9.2.2",
-    "projext-plugin-webpack-react": "^5.0.1",
-    "eslint": "^6.5.1",
-    "eslint-plugin-homer0": "^2.0.1",
-    "eslint-plugin-react": "^7.16.0",
-    "babel-eslint": "^10.0.3"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-hot-loader": "^4.12.18",
+    "projext": "^8.0.0",
+    "projext-plugin-webpack": "^10.0.0",
+    "projext-plugin-webpack-react": "^6.0.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-homer0": "^3.0.0",
+    "eslint-plugin-react": "^7.17.0",
+    "babel-eslint": "^10.0.3",
+    "@types/react": "^16.9.17"
   },
   "engine-strict": true,
   "engines": {
-    "node": ">=8.10"
+    "node": ">=10.13"
   },
   "scripts": {
     "build:webapp": "projext build webapp",

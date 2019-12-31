@@ -18,17 +18,17 @@
     "aurelia-templating-binding": "^1.5.3",
     "aurelia-templating-resources": "^1.12.0",
 
-    "projext": "^7.2.0",
-    "projext-plugin-webpack": "^9.2.2",
-    "projext-plugin-webpack-aurelia": "^2.1.1",
-    "wootils": "^2.6.5",
-    "eslint": "^6.5.1",
-    "eslint-plugin-homer0": "^2.0.1",
+    "projext": "^8.0.0",
+    "projext-plugin-webpack": "^10.0.0",
+    "projext-plugin-webpack-aurelia": "^3.0.0",
+    "wootils": "^3.0.1",
+    "eslint": "^6.8.0",
+    "eslint-plugin-homer0": "^3.0.0",
     "babel-eslint": "^10.0.3"
   },
   "engine-strict": true,
   "engines": {
-    "node": ">=8.10"
+    "node": ">=10.13"
   },
   "scripts": {
     "build": "projext build",

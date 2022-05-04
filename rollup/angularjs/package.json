@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "angular": "^1.7.9",
+    "angular": "^1.8.3",
     "projext": "^8.0.0",
     "projext-plugin-rollup": "^6.0.0",
     "projext-plugin-rollup-angularjs": "^4.0.0",

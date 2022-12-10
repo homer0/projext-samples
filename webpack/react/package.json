@@ -6,7 +6,7 @@
   "author": "Leonardo Apiwan (@homer0) <me@homer0.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "wootils": "^3.0.1"
   },
   "devDependencies": {
